@@ -1,0 +1,114 @@
+img {
+  width: 100%;
+}
+img.avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: inline-flex !important;
+}
+span.post-name a {
+  color: #000;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.dark {
+  color: #000;
+}
+div.login-msg {
+  background-color: #fff9e6;
+  border: 2px solid #ffcf10;
+  margin: 24px auto;
+  padding: 32px;
+  width: 100%;
+  max-width: 710px;
+}
+p.login-msg-bold {
+  font-weight: bold;
+}
+p.login-msg {
+  line-height: 0.4em;
+}
+.post-text {
+  color: #000;
+  line-height: 1em;
+}
+.landing {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background: url("./img/showcase.jpg") no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+nav a {
+  color: #000;
+}
+.top-section {
+  position: relative;
+  padding: 56px 0 72px 0;
+  color: #fff;
+  background-color: #117bf3;
+  background-image: url("https://cdn.sstatic.net/img/hero/pattern.svg?v=13ca42e6c21d"),
+    linear-gradient(to right, #126cfa 0%, #108aec 100%);
+  background-position: right center;
+  background-repeat: no-repeat;
+  font-size: 17px;
+  line-height: 1.53333333;
+  overflow: hidden;
+}
+.top-section:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  padding: 20%;
+  position: absolute;
+  left: 6vw;
+  top: -4vw;
+  z-index: 1;
+  pointer-events: none;
+
+  display: block;
+  background: rgba(2, 13, 232, 0.06);
+
+  clear: both;
+}
+.post-feed {
+  margin: 23px 0;
+}
+.clear-fix {
+  clear: both;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
