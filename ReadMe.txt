@@ -1,6 +1,6 @@
-DevNetwork
+##DevNetwork
 
-A Stack Overflow inspired app built with the MERN stack, where developers Learn, Share & Build Career. You can do everything form creating your own profile, to adding forms of experience, education, social media, and the option to show your latest repositories if you have a github account. Aditionally, you are able to add question, like, and reply to comments, and look up other’s profiles.
+A Stack Overflow inspired app built with the MERN stack, where developers Learn, Share & Build Career. You can do everything form creating your own profile, to adding forms of experience, education, social media, and the option to show your latest repositories if you have a github account. Aditionally, you are able to add question, like, and reply to comments, and look up otherâ€™s profiles.
 
 Quick Start
 # Install dependencies for server
